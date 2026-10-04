@@ -1,0 +1,1 @@
+{"name":"construction-kanji-game","private":true,"type":"module","scripts":{"test":"node --test --test-isolation=none tests/*.test.js","validate":"node scripts/validate.mjs","serve":"node scripts/serve.mjs","test:browser":"node tests/browser.mjs","import:terms":"node scripts/import-terms.mjs"}}

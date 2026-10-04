@@ -1,0 +1,1665 @@
+{
+  "chohari": {
+    "term": "丁張",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物の位置・高さ・勾配を現場に示すための仮設物。",
+    "word": "丁張",
+    "reading": "ちょうはり",
+    "source": "construction_terms_200.json"
+  },
+  "mallet": {
+    "term": "掛矢",
+    "length": 2,
+    "level": "beginner1",
+    "description": "杭などを打ち込むときに使う大型の木槌。",
+    "word": "掛矢",
+    "reading": "かけや",
+    "source": "construction_terms_200.json"
+  },
+  "survey": {
+    "term": "測量",
+    "length": 2,
+    "level": "beginner1",
+    "description": "位置・距離・高さ・角度などを測定する作業。",
+    "word": "測量",
+    "reading": "そくりょう",
+    "source": "construction_terms_200.json"
+  },
+  "excavation": {
+    "term": "掘削",
+    "length": 2,
+    "level": "beginner1",
+    "description": "地盤や土砂などを掘る作業。",
+    "word": "掘削",
+    "reading": "くっさく",
+    "source": "construction_terms_200.json"
+  },
+  "compaction": {
+    "term": "転圧",
+    "length": 2,
+    "level": "beginner1",
+    "description": "土や舗装材料などを締め固める作業。",
+    "word": "転圧",
+    "reading": "てんあつ",
+    "source": "construction_terms_200.json"
+  },
+  "roadbase": {
+    "term": "路盤",
+    "length": 2,
+    "level": "beginner1",
+    "description": "舗装を支えるために路床の上へ設ける層。",
+    "word": "路盤",
+    "reading": "ろばん",
+    "source": "construction_terms_200.json"
+  },
+  "roadbed": {
+    "term": "路床",
+    "length": 2,
+    "level": "beginner1",
+    "description": "道路舗装を下から支える地盤部分。",
+    "word": "路床",
+    "reading": "ろしょう",
+    "source": "construction_terms_200.json"
+  },
+  "slope": {
+    "term": "法面",
+    "length": 2,
+    "level": "beginner1",
+    "description": "切土や盛土によってできる傾斜面。",
+    "word": "法面",
+    "reading": "のりめん",
+    "source": "construction_terms_200.json"
+  },
+  "steel": {
+    "term": "鉄筋",
+    "length": 2,
+    "level": "beginner1",
+    "description": "コンクリートを補強するために配置する鋼材。",
+    "word": "鉄筋",
+    "reading": "てっきん",
+    "source": "construction_terms_200.json"
+  },
+  "formwork": {
+    "term": "型枠",
+    "length": 2,
+    "level": "beginner1",
+    "description": "コンクリートを所定の形に成形する仮設の枠。",
+    "word": "型枠",
+    "reading": "かたわく",
+    "source": "construction_terms_200.json"
+  },
+  "scaffold": {
+    "term": "足場",
+    "length": 2,
+    "level": "beginner1",
+    "description": "高所作業などのために設ける仮設の作業床。",
+    "word": "足場",
+    "reading": "あしば",
+    "source": "construction_terms_200.json"
+  },
+  "curing": {
+    "term": "養生",
+    "length": 2,
+    "level": "beginner1",
+    "description": "施工後の材料や構造物を適切な状態で保護すること。",
+    "word": "養生",
+    "reading": "ようじょう",
+    "source": "construction_terms_200.json"
+  },
+  "fill": {
+    "term": "盛土",
+    "length": 2,
+    "level": "beginner1",
+    "description": "土を盛り上げて地盤や構造物をつくること。",
+    "word": "盛土",
+    "reading": "もりど",
+    "source": "construction_terms_200.json"
+  },
+  "cut": {
+    "term": "切土",
+    "length": 2,
+    "level": "beginner1",
+    "description": "地盤を切り取って所定の形や高さにすること。",
+    "word": "切土",
+    "reading": "きりど",
+    "source": "construction_terms_200.json"
+  },
+  "earthwork": {
+    "term": "土工",
+    "length": 2,
+    "level": "beginner1",
+    "description": "掘削・盛土・埋戻しなど土を扱う工事。",
+    "word": "土工",
+    "reading": "どこう",
+    "source": "construction_terms_200.json"
+  },
+  "pavement": {
+    "term": "舗装",
+    "length": 2,
+    "level": "beginner1",
+    "description": "道路などの表面を舗装材料で仕上げること。",
+    "word": "舗装",
+    "reading": "ほそう",
+    "source": "construction_terms_200.json"
+  },
+  "term-6392-6c34": {
+    "term": "排水",
+    "length": 2,
+    "level": "beginner1",
+    "description": "不要な水を施設や地盤から外へ流すこと。",
+    "word": "排水",
+    "source": "construction_terms_200.json"
+  },
+  "term-6b8b-571f": {
+    "term": "残土",
+    "length": 2,
+    "level": "beginner1",
+    "description": "掘削などで発生し現場内で利用しない土砂。",
+    "word": "残土",
+    "source": "construction_terms_200.json"
+  },
+  "term-7815-77f3": {
+    "term": "砕石",
+    "length": 2,
+    "level": "beginner1",
+    "description": "岩石を砕いて粒度を調整した材料。",
+    "word": "砕石",
+    "source": "construction_terms_200.json"
+  },
+  "term-7802-5229": {
+    "term": "砂利",
+    "length": 2,
+    "level": "beginner1",
+    "description": "丸みを帯びた小石を主体とする材料。",
+    "word": "砂利",
+    "source": "construction_terms_200.json"
+  },
+  "term-6817-77f3": {
+    "term": "栗石",
+    "length": 2,
+    "level": "beginner1",
+    "description": "基礎や裏込めなどに使う比較的大きな石。",
+    "word": "栗石",
+    "source": "construction_terms_200.json"
+  },
+  "term-6368-77f3": {
+    "term": "捨石",
+    "length": 2,
+    "level": "beginner2",
+    "description": "基礎や護岸などで敷き並べる石材。",
+    "word": "捨石",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-5727": {
+    "term": "土圧",
+    "length": 2,
+    "level": "beginner2",
+    "description": "土が壁や構造物に及ぼす圧力。",
+    "word": "土圧",
+    "source": "construction_terms_200.json"
+  },
+  "term-6c34-5727": {
+    "term": "水圧",
+    "length": 2,
+    "level": "beginner2",
+    "description": "水が構造物などに作用する圧力。",
+    "word": "水圧",
+    "source": "construction_terms_200.json"
+  },
+  "term-8377-91cd": {
+    "term": "荷重",
+    "length": 2,
+    "level": "beginner2",
+    "description": "構造物や地盤に作用する力。",
+    "word": "荷重",
+    "source": "construction_terms_200.json"
+  },
+  "term-5fdc-529b": {
+    "term": "応力",
+    "length": 2,
+    "level": "beginner2",
+    "description": "外力に対して部材内部に生じる力の状態。",
+    "word": "応力",
+    "source": "construction_terms_200.json"
+  },
+  "term-5ea7-5c48": {
+    "term": "座屈",
+    "length": 2,
+    "level": "intermediate",
+    "description": "圧縮を受ける部材が横方向に大きく変形する現象。",
+    "word": "座屈",
+    "source": "construction_terms_200.json"
+  },
+  "term-6c88-4e0b": {
+    "term": "沈下",
+    "length": 2,
+    "level": "beginner2",
+    "description": "地盤や構造物が下方向へ移動すること。",
+    "word": "沈下",
+    "source": "construction_terms_200.json"
+  },
+  "term-652f-6301": {
+    "term": "支持",
+    "length": 2,
+    "level": "beginner2",
+    "description": "荷重を受け持ち支えること。",
+    "word": "支持",
+    "source": "construction_terms_200.json"
+  },
+  "term-5730-76e4": {
+    "term": "地盤",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物や道路などを支える地面や地層。",
+    "word": "地盤",
+    "source": "construction_terms_200.json"
+  },
+  "term-57fa-790e": {
+    "term": "基礎",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物の荷重を地盤へ伝える下部構造。",
+    "word": "基礎",
+    "source": "construction_terms_200.json"
+  },
+  "term-76ee-5730": {
+    "term": "目地",
+    "length": 2,
+    "level": "beginner2",
+    "description": "構造物や舗装に設ける継ぎ目。",
+    "word": "目地",
+    "source": "construction_terms_200.json"
+  },
+  "term-6b62-6c34": {
+    "term": "止水",
+    "length": 2,
+    "level": "beginner2",
+    "description": "水の流入や漏水を防ぐこと。",
+    "word": "止水",
+    "source": "construction_terms_200.json"
+  },
+  "term-9632-6c34": {
+    "term": "防水",
+    "length": 2,
+    "level": "beginner2",
+    "description": "水が内部へ浸入しないようにする処理。",
+    "word": "防水",
+    "source": "construction_terms_200.json"
+  },
+  "term-5951-7d04": {
+    "term": "契約",
+    "length": 2,
+    "level": "beginner2",
+    "description": "発注者と受注者が工事条件などを取り決めること。",
+    "word": "契約",
+    "source": "construction_terms_200.json"
+  },
+  "term-8a2d-8a08": {
+    "term": "設計",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物の形状・寸法・材料などを計画すること。",
+    "word": "設計",
+    "source": "construction_terms_200.json"
+  },
+  "term-56f3-9762": {
+    "term": "図面",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物や施工内容を図で示した資料。",
+    "word": "図面",
+    "source": "construction_terms_200.json"
+  },
+  "term-7a4d-7b97": {
+    "term": "積算",
+    "length": 2,
+    "level": "beginner2",
+    "description": "工事に必要な数量や費用を算出する作業。",
+    "word": "積算",
+    "source": "construction_terms_200.json"
+  },
+  "term-5165-672d": {
+    "term": "入札",
+    "length": 2,
+    "level": "beginner2",
+    "description": "工事の受注者を決めるため価格などを提示する手続き。",
+    "word": "入札",
+    "source": "construction_terms_200.json"
+  },
+  "term-7ae3-5de5": {
+    "term": "竣工",
+    "length": 2,
+    "level": "beginner2",
+    "description": "工事が完成すること。",
+    "word": "竣工",
+    "source": "construction_terms_200.json"
+  },
+  "term-539f-4fa1": {
+    "term": "原価",
+    "length": 2,
+    "level": "beginner2",
+    "description": "工事を施工するために実際に必要となる費用。",
+    "word": "原価",
+    "source": "construction_terms_200.json"
+  },
+  "term-5de5-7a0b": {
+    "term": "工程",
+    "length": 2,
+    "level": "beginner1",
+    "description": "工事の作業順序や日程。",
+    "word": "工程",
+    "source": "construction_terms_200.json"
+  },
+  "term-54c1-8cea": {
+    "term": "品質",
+    "length": 2,
+    "level": "beginner1",
+    "description": "構造物や材料が要求性能を満たす程度。",
+    "word": "品質",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b89-5168": {
+    "term": "安全",
+    "length": 2,
+    "level": "beginner1",
+    "description": "事故や災害を防ぎ危険のない状態を保つこと。",
+    "word": "安全",
+    "source": "construction_terms_200.json"
+  },
+  "term-5199-771f": {
+    "term": "写真",
+    "length": 2,
+    "level": "beginner1",
+    "description": "施工状況や出来形などを記録する画像。",
+    "word": "写真",
+    "source": "construction_terms_200.json"
+  },
+  "surveyPoint": {
+    "term": "測点",
+    "length": 2,
+    "level": "beginner2",
+    "description": "測量を行うために設定した地点。",
+    "word": "測点",
+    "reading": "そくてん",
+    "source": "construction_terms_200.json"
+  },
+  "term-52fe-914d": {
+    "term": "勾配",
+    "length": 2,
+    "level": "beginner1",
+    "description": "高さの変化量と水平距離との割合。",
+    "word": "勾配",
+    "source": "construction_terms_200.json"
+  },
+  "term-5ef6-9577": {
+    "term": "延長",
+    "length": 2,
+    "level": "beginner1",
+    "description": "道路や構造物などの長さ。",
+    "word": "延長",
+    "source": "construction_terms_200.json"
+  },
+  "term-5e45-54e1": {
+    "term": "幅員",
+    "length": 2,
+    "level": "beginner2",
+    "description": "道路などの横方向の幅。",
+    "word": "幅員",
+    "source": "construction_terms_200.json"
+  },
+  "term-65ad-9762": {
+    "term": "断面",
+    "length": 2,
+    "level": "beginner1",
+    "description": "対象物を切ったときに現れる形状。",
+    "word": "断面",
+    "source": "construction_terms_200.json"
+  },
+  "term-5e73-9762": {
+    "term": "平面",
+    "length": 2,
+    "level": "beginner1",
+    "description": "上から見た形状や位置関係。",
+    "word": "平面",
+    "source": "construction_terms_200.json"
+  },
+  "term-7e26-65ad": {
+    "term": "縦断",
+    "length": 2,
+    "level": "beginner2",
+    "description": "路線などを進行方向に沿って切った断面。",
+    "word": "縦断",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a2a-65ad": {
+    "term": "横断",
+    "length": 2,
+    "level": "beginner2",
+    "description": "路線などを進行方向に直角に切った断面。",
+    "word": "横断",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-91cf": {
+    "term": "土量",
+    "length": 2,
+    "level": "beginner2",
+    "description": "掘削や盛土などで扱う土の体積。",
+    "word": "土量",
+    "source": "construction_terms_200.json"
+  },
+  "term-6cd5-9577": {
+    "term": "法長",
+    "length": 2,
+    "level": "beginner2",
+    "description": "法面に沿って測った斜め方向の長さ。",
+    "word": "法長",
+    "source": "construction_terms_200.json"
+  },
+  "waterLevel": {
+    "term": "水準",
+    "length": 2,
+    "level": "beginner2",
+    "description": "高さを基準として測ること、またはその基準。",
+    "word": "水準",
+    "reading": "すいじゅん",
+    "source": "construction_terms_200.json"
+  },
+  "standard": {
+    "term": "基準",
+    "length": 2,
+    "level": "beginner1",
+    "description": "判断や測定のよりどころとなる標準。",
+    "word": "基準",
+    "reading": "きじゅん",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a19-9ad8": {
+    "term": "標高",
+    "length": 2,
+    "level": "beginner2",
+    "description": "基準面から測った地点の高さ。",
+    "word": "標高",
+    "source": "construction_terms_200.json"
+  },
+  "term-5ea7-6a19": {
+    "term": "座標",
+    "length": 2,
+    "level": "beginner2",
+    "description": "点の位置を数値で表したもの。",
+    "word": "座標",
+    "source": "construction_terms_200.json"
+  },
+  "term-8ddd-96e2": {
+    "term": "距離",
+    "length": 2,
+    "level": "beginner1",
+    "description": "2点間の長さ。",
+    "word": "距離",
+    "source": "construction_terms_200.json"
+  },
+  "term-89d2-5ea6": {
+    "term": "角度",
+    "length": 2,
+    "level": "beginner1",
+    "description": "2本の線や方向の開き具合。",
+    "word": "角度",
+    "source": "construction_terms_200.json"
+  },
+  "term-65b9-5411": {
+    "term": "方向",
+    "length": 2,
+    "level": "beginner1",
+    "description": "ある地点から見た向き。",
+    "word": "方向",
+    "source": "construction_terms_200.json"
+  },
+  "term-65b9-4f4d": {
+    "term": "方位",
+    "length": 2,
+    "level": "intermediate",
+    "description": "基準方向に対して表した方向。",
+    "word": "方位",
+    "source": "construction_terms_200.json"
+  },
+  "term-8996-6e96": {
+    "term": "視準",
+    "length": 2,
+    "level": "intermediate",
+    "description": "測量機器で目標物を正確に狙うこと。",
+    "word": "視準",
+    "source": "construction_terms_200.json"
+  },
+  "term-8aad-5b9a": {
+    "term": "読定",
+    "length": 2,
+    "level": "intermediate",
+    "description": "測量機器や標尺などの値を読み取ること。",
+    "word": "読定",
+    "source": "construction_terms_200.json"
+  },
+  "term-9589-5408": {
+    "term": "閉合",
+    "length": 2,
+    "level": "intermediate",
+    "description": "測量で始点と終点を結び誤差を確認できる状態。",
+    "word": "閉合",
+    "source": "construction_terms_200.json"
+  },
+  "term-8aa4-5dee": {
+    "term": "誤差",
+    "length": 2,
+    "level": "beginner2",
+    "description": "測定値と真値または基準値との差。",
+    "word": "誤差",
+    "source": "construction_terms_200.json"
+  },
+  "term-6e2c-7dda": {
+    "term": "測線",
+    "length": 2,
+    "level": "intermediate",
+    "description": "測量のために設定する測定線。",
+    "word": "測線",
+    "source": "construction_terms_200.json"
+  },
+  "term-6e2c-89d2": {
+    "term": "測角",
+    "length": 2,
+    "level": "intermediate",
+    "description": "角度を測ること。",
+    "word": "測角",
+    "source": "construction_terms_200.json"
+  },
+  "term-6e2c-8ddd": {
+    "term": "測距",
+    "length": 2,
+    "level": "intermediate",
+    "description": "距離を測ること。",
+    "word": "測距",
+    "source": "construction_terms_200.json"
+  },
+  "term-676d-82af": {
+    "term": "杭芯",
+    "length": 2,
+    "level": "beginner2",
+    "description": "杭の中心位置。",
+    "word": "杭芯",
+    "source": "construction_terms_200.json"
+  },
+  "rebar": {
+    "term": "配筋",
+    "length": 2,
+    "level": "beginner2",
+    "description": "鉄筋を図面どおりに配置すること。",
+    "word": "配筋",
+    "reading": "はいきん",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b9a-7740": {
+    "term": "定着",
+    "length": 2,
+    "level": "intermediate",
+    "description": "鉄筋などが力を伝えられるよう所定長さを確保すること。",
+    "word": "定着",
+    "source": "construction_terms_200.json"
+  },
+  "term-7d99-624b": {
+    "term": "継手",
+    "length": 2,
+    "level": "beginner2",
+    "description": "部材同士を接続する部分や方法。",
+    "word": "継手",
+    "source": "construction_terms_200.json"
+  },
+  "term-4e3b-7b4b": {
+    "term": "主筋",
+    "length": 2,
+    "level": "beginner2",
+    "description": "構造上主要な力を負担する鉄筋。",
+    "word": "主筋",
+    "source": "construction_terms_200.json"
+  },
+  "term-5e2f-7b4b": {
+    "term": "帯筋",
+    "length": 2,
+    "level": "intermediate",
+    "description": "柱などの主筋を囲むように配置する鉄筋。",
+    "word": "帯筋",
+    "source": "construction_terms_200.json"
+  },
+  "term-9244-9aa8": {
+    "term": "鉄骨",
+    "length": 2,
+    "level": "beginner2",
+    "description": "鋼材を主要構造に用いる骨組み。",
+    "word": "鉄骨",
+    "source": "construction_terms_200.json"
+  },
+  "term-6eb6-63a5": {
+    "term": "溶接",
+    "length": 2,
+    "level": "beginner2",
+    "description": "熱などを利用して金属同士を接合すること。",
+    "word": "溶接",
+    "source": "construction_terms_200.json"
+  },
+  "term-4eee-8a2d": {
+    "term": "仮設",
+    "length": 2,
+    "level": "beginner2",
+    "description": "工事中だけ使用する一時的な施設や設備。",
+    "word": "仮設",
+    "source": "construction_terms_200.json"
+  },
+  "term-672c-8a2d": {
+    "term": "本設",
+    "length": 2,
+    "level": "intermediate",
+    "description": "完成後も使用する恒久的な施設や構造物。",
+    "word": "本設",
+    "source": "construction_terms_200.json"
+  },
+  "term-57cb-8a2d": {
+    "term": "埋設",
+    "length": 2,
+    "level": "beginner2",
+    "description": "管などを地中に埋めて設置すること。",
+    "word": "埋設",
+    "source": "construction_terms_200.json"
+  },
+  "term-7ba1-8def": {
+    "term": "管路",
+    "length": 2,
+    "level": "beginner2",
+    "description": "水や流体などを通す管の経路。",
+    "word": "管路",
+    "source": "construction_terms_200.json"
+  },
+  "term-7ba1-6e20": {
+    "term": "管渠",
+    "length": 2,
+    "level": "intermediate",
+    "description": "水などを流すための管状・箱状の構造物。",
+    "word": "管渠",
+    "source": "construction_terms_200.json"
+  },
+  "term-51fd-6e20": {
+    "term": "函渠",
+    "length": 2,
+    "level": "beginner2",
+    "description": "箱形断面をもつ水路や通路の構造物。",
+    "word": "函渠",
+    "source": "construction_terms_200.json"
+  },
+  "term-5074-6e9d": {
+    "term": "側溝",
+    "length": 2,
+    "level": "beginner1",
+    "description": "道路脇などに設ける排水用の溝。",
+    "word": "側溝",
+    "source": "construction_terms_200.json"
+  },
+  "term-64c1-58c1": {
+    "term": "擁壁",
+    "length": 2,
+    "level": "beginner1",
+    "description": "土の崩壊を防ぐために設ける壁状構造物。",
+    "word": "擁壁",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a4b-53f0": {
+    "term": "橋台",
+    "length": 2,
+    "level": "beginner2",
+    "description": "橋の両端で上部構造を支える構造物。",
+    "word": "橋台",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a4b-811a": {
+    "term": "橋脚",
+    "length": 2,
+    "level": "beginner2",
+    "description": "橋の中間部で上部構造を支える構造物。",
+    "word": "橋脚",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a4b-6881": {
+    "term": "橋梁",
+    "length": 2,
+    "level": "beginner1",
+    "description": "道路や河川などを越えるための橋構造物。",
+    "word": "橋梁",
+    "source": "construction_terms_200.json"
+  },
+  "term-5e8a-7248": {
+    "term": "床版",
+    "length": 2,
+    "level": "intermediate",
+    "description": "橋梁などで車両荷重を直接受ける板状部材。",
+    "word": "床版",
+    "source": "construction_terms_200.json"
+  },
+  "level": {
+    "term": "水平器",
+    "length": 3,
+    "level": "beginner1",
+    "description": "水平や鉛直を確認するために使用する器具。",
+    "word": "水平器",
+    "reading": "すいへいき",
+    "source": "construction_terms_200.json"
+  },
+  "reference": {
+    "term": "基準点",
+    "length": 3,
+    "level": "beginner2",
+    "description": "測量の位置や高さの基準となる点。",
+    "word": "基準点",
+    "reading": "きじゅんてん",
+    "source": "construction_terms_200.json"
+  },
+  "benchmark": {
+    "term": "水準点",
+    "length": 3,
+    "level": "beginner2",
+    "description": "標高の基準として設置・管理される点。",
+    "word": "水準点",
+    "reading": "すいじゅんてん",
+    "source": "construction_terms_200.json"
+  },
+  "asbuilt": {
+    "term": "出来形",
+    "length": 3,
+    "level": "beginner2",
+    "description": "施工が完了した構造物などの寸法・高さ・位置。",
+    "word": "出来形",
+    "reading": "できがた",
+    "source": "construction_terms_200.json"
+  },
+  "progress": {
+    "term": "出来高",
+    "length": 3,
+    "level": "beginner2",
+    "description": "工事の進捗に応じて完成した仕事量や金額。",
+    "word": "出来高",
+    "reading": "できだか",
+    "source": "construction_terms_200.json"
+  },
+  "reinforcement": {
+    "term": "配筋図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "鉄筋の位置・径・間隔などを示した図面。",
+    "word": "配筋図",
+    "reading": "はいきんず",
+    "source": "construction_terms_200.json"
+  },
+  "surveyStake": {
+    "term": "測量杭",
+    "length": 3,
+    "level": "beginner2",
+    "description": "測量位置や基準を示すために設置する杭。",
+    "word": "測量杭",
+    "reading": "そくりょうぐい",
+    "source": "construction_terms_200.json"
+  },
+  "constructionDrawing": {
+    "term": "施工図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "実際の施工に必要な詳細を示した図面。",
+    "word": "施工図",
+    "reading": "せこうず",
+    "source": "construction_terms_200.json"
+  },
+  "pavementThickness": {
+    "term": "舗装厚",
+    "length": 3,
+    "level": "beginner2",
+    "description": "舗装各層または舗装全体の厚さ。",
+    "word": "舗装厚",
+    "reading": "ほそうあつ",
+    "source": "construction_terms_200.json"
+  },
+  "rebarDiameter": {
+    "term": "鉄筋径",
+    "length": 3,
+    "level": "beginner2",
+    "description": "鉄筋の直径。",
+    "word": "鉄筋径",
+    "reading": "てっきんけい",
+    "source": "construction_terms_200.json"
+  },
+  "supervisor": {
+    "term": "監督員",
+    "length": 3,
+    "level": "beginner2",
+    "description": "発注者側で工事の監督業務を行う担当者。",
+    "word": "監督員",
+    "reading": "かんとくいん",
+    "source": "construction_terms_200.json"
+  },
+  "term-767a-6ce8-8005": {
+    "term": "発注者",
+    "length": 3,
+    "level": "beginner2",
+    "description": "工事を注文し契約を締結する側。",
+    "word": "発注者",
+    "source": "construction_terms_200.json"
+  },
+  "term-53d7-6ce8-8005": {
+    "term": "受注者",
+    "length": 3,
+    "level": "beginner2",
+    "description": "工事を請け負い施工する側。",
+    "word": "受注者",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-8005": {
+    "term": "施工者",
+    "length": 3,
+    "level": "beginner2",
+    "description": "実際に工事を施工する者や組織。",
+    "word": "施工者",
+    "source": "construction_terms_200.json"
+  },
+  "term-6280-8853-8005": {
+    "term": "技術者",
+    "length": 3,
+    "level": "beginner2",
+    "description": "専門的な知識や技能を用いて業務を行う者。",
+    "word": "技術者",
+    "source": "construction_terms_200.json"
+  },
+  "term-8def-76e4-5de5": {
+    "term": "路盤工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "道路の路盤を施工する工種。",
+    "word": "路盤工",
+    "source": "construction_terms_200.json"
+  },
+  "term-8217-88c5-5de5": {
+    "term": "舗装工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "道路などの舗装を施工する工種。",
+    "word": "舗装工",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-5de5-4e8b": {
+    "term": "土工事",
+    "length": 3,
+    "level": "beginner2",
+    "description": "掘削・盛土・埋戻しなどを行う工事。",
+    "word": "土工事",
+    "source": "construction_terms_200.json"
+  },
+  "term-6398-524a-5de5": {
+    "term": "掘削工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "地盤や土砂を掘削する工種。",
+    "word": "掘削工",
+    "source": "construction_terms_200.json"
+  },
+  "term-76db-571f-5de5": {
+    "term": "盛土工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "土を盛って地盤を形成する工種。",
+    "word": "盛土工",
+    "source": "construction_terms_200.json"
+  },
+  "term-6cd5-9762-5de5": {
+    "term": "法面工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "法面を整形・保護する工種。",
+    "word": "法面工",
+    "source": "construction_terms_200.json"
+  },
+  "term-6392-6c34-5de5": {
+    "term": "排水工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "排水施設を施工する工種。",
+    "word": "排水工",
+    "source": "construction_terms_200.json"
+  },
+  "term-4eee-8a2d-5de5": {
+    "term": "仮設工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "工事に必要な仮設物を設置・撤去する工種。",
+    "word": "仮設工",
+    "source": "construction_terms_200.json"
+  },
+  "term-57fa-790e-5de5": {
+    "term": "基礎工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "構造物を支える基礎を施工する工種。",
+    "word": "基礎工",
+    "source": "construction_terms_200.json"
+  },
+  "term-9244-7b4b-5de5": {
+    "term": "鉄筋工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "鉄筋の加工・組立てを行う工種。",
+    "word": "鉄筋工",
+    "source": "construction_terms_200.json"
+  },
+  "term-578b-67a0-5de5": {
+    "term": "型枠工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "コンクリート用の型枠を施工する工種。",
+    "word": "型枠工",
+    "source": "construction_terms_200.json"
+  },
+  "term-8db3-5834-5de5": {
+    "term": "足場工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "作業用足場を組立て・解体する工種。",
+    "word": "足場工",
+    "source": "construction_terms_200.json"
+  },
+  "term-5de6-5b98-5de5": {
+    "term": "左官工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "モルタルなどを塗り仕上げる工種。",
+    "word": "左官工",
+    "source": "construction_terms_200.json"
+  },
+  "term-9020-5712-5de5": {
+    "term": "造園工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "植栽や景観整備などを行う工種。",
+    "word": "造園工",
+    "source": "construction_terms_200.json"
+  },
+  "term-690d-683d-5de5": {
+    "term": "植栽工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "樹木や草花などを植える工種。",
+    "word": "植栽工",
+    "source": "construction_terms_200.json"
+  },
+  "term-9664-8349-5de5": {
+    "term": "除草工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "草を刈る・除去する工種。",
+    "word": "除草工",
+    "source": "construction_terms_200.json"
+  },
+  "term-64a4-53bb-5de5": {
+    "term": "撤去工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "既設物などを取り除く工種。",
+    "word": "撤去工",
+    "source": "construction_terms_200.json"
+  },
+  "term-89e3-4f53-5de5": {
+    "term": "解体工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "構造物などを解体する工種。",
+    "word": "解体工",
+    "source": "construction_terms_200.json"
+  },
+  "term-64c1-58c1-5de5": {
+    "term": "擁壁工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "擁壁を施工する工種。",
+    "word": "擁壁工",
+    "source": "construction_terms_200.json"
+  },
+  "term-8b77-5cb8-5de5": {
+    "term": "護岸工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "河岸や海岸を流水などから保護する工種。",
+    "word": "護岸工",
+    "source": "construction_terms_200.json"
+  },
+  "term-7802-9632-5de5": {
+    "term": "砂防工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "土砂災害を防止・軽減するための工種。",
+    "word": "砂防工",
+    "source": "construction_terms_200.json"
+  },
+  "term-7ba1-8def-5de5": {
+    "term": "管路工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "管路を布設する工種。",
+    "word": "管路工",
+    "source": "construction_terms_200.json"
+  },
+  "term-51fd-6e20-5de5": {
+    "term": "函渠工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "函渠を施工する工種。",
+    "word": "函渠工",
+    "source": "construction_terms_200.json"
+  },
+  "term-5074-6e9d-5de5": {
+    "term": "側溝工",
+    "length": 3,
+    "level": "beginner2",
+    "description": "側溝を施工する工種。",
+    "word": "側溝工",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a4b-6881-5de5": {
+    "term": "橋梁工",
+    "length": 3,
+    "level": "intermediate",
+    "description": "橋梁を施工する工種。",
+    "word": "橋梁工",
+    "source": "construction_terms_200.json"
+  },
+  "term-676d-57fa-790e": {
+    "term": "杭基礎",
+    "length": 3,
+    "level": "intermediate",
+    "description": "杭を用いて構造物の荷重を地盤へ伝える基礎。",
+    "word": "杭基礎",
+    "source": "construction_terms_200.json"
+  },
+  "term-8a2d-8a08-56f3": {
+    "term": "設計図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "設計内容を示す図面。",
+    "word": "設計図",
+    "source": "construction_terms_200.json"
+  },
+  "term-5e73-9762-56f3": {
+    "term": "平面図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "構造物や地形を上から見た図面。",
+    "word": "平面図",
+    "source": "construction_terms_200.json"
+  },
+  "term-7e26-65ad-56f3": {
+    "term": "縦断図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "路線などを進行方向に沿って示した断面図。",
+    "word": "縦断図",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a2a-65ad-56f3": {
+    "term": "横断図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "路線などを進行方向に直角に示した断面図。",
+    "word": "横断図",
+    "source": "construction_terms_200.json"
+  },
+  "term-8a73-7d30-56f3": {
+    "term": "詳細図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "部分を拡大して詳細に示した図面。",
+    "word": "詳細図",
+    "source": "construction_terms_200.json"
+  },
+  "term-914d-7f6e-56f3": {
+    "term": "配置図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "構造物などの位置関係を示した図面。",
+    "word": "配置図",
+    "source": "construction_terms_200.json"
+  },
+  "term-69cb-9020-56f3": {
+    "term": "構造図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "構造物の形状・寸法・配筋などを示す図面。",
+    "word": "構造図",
+    "source": "construction_terms_200.json"
+  },
+  "term-5c55-958b-56f3": {
+    "term": "展開図",
+    "length": 3,
+    "level": "intermediate",
+    "description": "面を展開して形状や寸法を示した図面。",
+    "word": "展開図",
+    "source": "construction_terms_200.json"
+  },
+  "term-65ad-9762-56f3": {
+    "term": "断面図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "対象物を切った状態を示す図面。",
+    "word": "断面図",
+    "source": "construction_terms_200.json"
+  },
+  "term-4f4d-7f6e-56f3": {
+    "term": "位置図",
+    "length": 3,
+    "level": "beginner2",
+    "description": "工事場所や対象物の位置を示す図面。",
+    "word": "位置図",
+    "source": "construction_terms_200.json"
+  },
+  "term-6c42-7a4d-56f3": {
+    "term": "求積図",
+    "length": 3,
+    "level": "intermediate",
+    "description": "面積計算の根拠を示す図面。",
+    "word": "求積図",
+    "source": "construction_terms_200.json"
+  },
+  "term-4eee-8a2d-56f3": {
+    "term": "仮設図",
+    "length": 3,
+    "level": "intermediate",
+    "description": "仮設構造物の配置や形状を示す図面。",
+    "word": "仮設図",
+    "source": "construction_terms_200.json"
+  },
+  "term-5f8c-8996-70b9": {
+    "term": "後視点",
+    "length": 3,
+    "level": "intermediate",
+    "description": "水準測量などで後視を行う点。",
+    "word": "後視点",
+    "source": "construction_terms_200.json"
+  },
+  "term-524d-8996-70b9": {
+    "term": "前視点",
+    "length": 3,
+    "level": "intermediate",
+    "description": "水準測量などで前視を行う点。",
+    "word": "前視点",
+    "source": "construction_terms_200.json"
+  },
+  "term-76db-66ff-70b9": {
+    "term": "盛替点",
+    "length": 3,
+    "level": "intermediate",
+    "description": "水準測量で器械を据え替える際に高さを引き継ぐ点。",
+    "word": "盛替点",
+    "source": "construction_terms_200.json"
+  },
+  "term-5668-68b0-9ad8": {
+    "term": "器械高",
+    "length": 3,
+    "level": "intermediate",
+    "description": "レベルなどの視準線の標高。",
+    "word": "器械高",
+    "source": "construction_terms_200.json"
+  },
+  "term-5730-76e4-9ad8": {
+    "term": "地盤高",
+    "length": 3,
+    "level": "beginner2",
+    "description": "地盤面の標高。",
+    "word": "地盤高",
+    "source": "construction_terms_200.json"
+  },
+  "term-8a08-753b-9ad8": {
+    "term": "計画高",
+    "length": 3,
+    "level": "beginner2",
+    "description": "設計で定められた仕上がり高さ。",
+    "word": "計画高",
+    "source": "construction_terms_200.json"
+  },
+  "term-8996-6e96-9ad8": {
+    "term": "視準高",
+    "length": 3,
+    "level": "intermediate",
+    "description": "測量で視準線の高さを表す値。",
+    "word": "視準高",
+    "source": "construction_terms_200.json"
+  },
+  "term-6c34-5e73-89d2": {
+    "term": "水平角",
+    "length": 3,
+    "level": "intermediate",
+    "description": "水平面内で測定する角度。",
+    "word": "水平角",
+    "source": "construction_terms_200.json"
+  },
+  "term-925b-76f4-89d2": {
+    "term": "鉛直角",
+    "length": 3,
+    "level": "intermediate",
+    "description": "鉛直方向を基準として測る角度。",
+    "word": "鉛直角",
+    "source": "construction_terms_200.json"
+  },
+  "term-65b9-5411-89d2": {
+    "term": "方向角",
+    "length": 3,
+    "level": "intermediate",
+    "description": "基準方向から測った方向の角度。",
+    "word": "方向角",
+    "source": "construction_terms_200.json"
+  },
+  "term-65b9-4f4d-89d2": {
+    "term": "方位角",
+    "length": 3,
+    "level": "intermediate",
+    "description": "北などの基準方向から時計回りに測る角度。",
+    "word": "方位角",
+    "source": "construction_terms_200.json"
+  },
+  "term-9589-5408-5dee": {
+    "term": "閉合差",
+    "length": 3,
+    "level": "advanced",
+    "description": "閉合測量で始点と終点の計算結果に生じる差。",
+    "word": "閉合差",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-7ba1-7406": {
+    "term": "施工管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "品質・工程・安全・原価などを管理しながら工事を進めること。",
+    "word": "施工管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b89-5168-7ba1-7406": {
+    "term": "安全管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "事故や災害を防ぐために現場の安全を管理すること。",
+    "word": "安全管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-54c1-8cea-7ba1-7406": {
+    "term": "品質管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "材料や施工結果が要求品質を満たすよう管理すること。",
+    "word": "品質管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5de5-7a0b-7ba1-7406": {
+    "term": "工程管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "工事が計画どおり進むよう日程や作業を管理すること。",
+    "word": "工程管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-539f-4fa1-7ba1-7406": {
+    "term": "原価管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "工事費用を把握し予算内に収めるための管理。",
+    "word": "原価管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5199-771f-7ba1-7406": {
+    "term": "写真管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "施工状況や出来形を写真で記録・整理すること。",
+    "word": "写真管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-66f8-985e-7ba1-7406": {
+    "term": "書類管理",
+    "length": 4,
+    "level": "beginner2",
+    "description": "工事関係書類を整理・保管・更新すること。",
+    "word": "書類管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-4ea4-901a-7ba1-7406": {
+    "term": "交通管理",
+    "length": 4,
+    "level": "intermediate",
+    "description": "工事中の車両・歩行者の安全な通行を管理すること。",
+    "word": "交通管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5de5-4e8b-5199-771f": {
+    "term": "工事写真",
+    "length": 4,
+    "level": "beginner2",
+    "description": "施工状況や出来形などを記録するための写真。",
+    "word": "工事写真",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b8c-6210-56f3-66f8": {
+    "term": "完成図書",
+    "length": 4,
+    "level": "intermediate",
+    "description": "工事完成時に整理して提出する図面や書類一式。",
+    "word": "完成図書",
+    "source": "construction_terms_200.json"
+  },
+  "term-8a2d-8a08-5909-66f4": {
+    "term": "設計変更",
+    "length": 4,
+    "level": "beginner2",
+    "description": "施工条件などに応じて設計内容を変更すること。",
+    "word": "設計変更",
+    "source": "construction_terms_200.json"
+  },
+  "term-5909-66f4-5951-7d04": {
+    "term": "変更契約",
+    "length": 4,
+    "level": "intermediate",
+    "description": "設計変更などに伴い契約内容を変更すること。",
+    "word": "変更契約",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-4f53-5236": {
+    "term": "施工体制",
+    "length": 4,
+    "level": "intermediate",
+    "description": "元請・下請など工事を実施する組織や役割の構成。",
+    "word": "施工体制",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b89-5168-5de1-8996": {
+    "term": "安全巡視",
+    "length": 4,
+    "level": "intermediate",
+    "description": "現場を巡回して危険箇所や不安全状態を確認すること。",
+    "word": "安全巡視",
+    "source": "construction_terms_200.json"
+  },
+  "term-5371-967a-4e88-77e5": {
+    "term": "危険予知",
+    "length": 4,
+    "level": "beginner2",
+    "description": "作業前に潜在する危険を予測して対策を考えること。",
+    "word": "危険予知",
+    "source": "construction_terms_200.json"
+  },
+  "term-707d-5bb3-9632-6b62": {
+    "term": "災害防止",
+    "length": 4,
+    "level": "beginner2",
+    "description": "労働災害や事故を防ぐための対策。",
+    "word": "災害防止",
+    "source": "construction_terms_200.json"
+  },
+  "term-5730-76e4-6539-826f": {
+    "term": "地盤改良",
+    "length": 4,
+    "level": "intermediate",
+    "description": "地盤の強度や安定性を改善する工法。",
+    "word": "地盤改良",
+    "source": "construction_terms_200.json"
+  },
+  "term-8edf-5f31-5730-76e4": {
+    "term": "軟弱地盤",
+    "length": 4,
+    "level": "intermediate",
+    "description": "支持力が小さく沈下しやすい地盤。",
+    "word": "軟弱地盤",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-8a08-753b": {
+    "term": "施工計画",
+    "length": 4,
+    "level": "beginner2",
+    "description": "施工方法・工程・安全対策などを事前に計画すること。",
+    "word": "施工計画",
+    "source": "construction_terms_200.json"
+  },
+  "term-914d-7b4b-9593-9694": {
+    "term": "配筋間隔",
+    "length": 4,
+    "level": "intermediate",
+    "description": "鉄筋同士の配置間隔。",
+    "word": "配筋間隔",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-76ee-5730": {
+    "term": "施工目地",
+    "length": 4,
+    "level": "intermediate",
+    "description": "施工上の区切りとして設ける目地。",
+    "word": "施工目地",
+    "source": "construction_terms_200.json"
+  },
+  "term-4f38-7e2e-76ee-5730": {
+    "term": "伸縮目地",
+    "length": 4,
+    "level": "intermediate",
+    "description": "温度変化などによる伸縮を吸収するための目地。",
+    "word": "伸縮目地",
+    "source": "construction_terms_200.json"
+  },
+  "term-6253-7d99-76ee-5730": {
+    "term": "打継目地",
+    "length": 4,
+    "level": "advanced",
+    "description": "コンクリートを分けて打設する際に生じる継ぎ目。",
+    "word": "打継目地",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-91cf-8a08-7b97": {
+    "term": "土量計算",
+    "length": 4,
+    "level": "beginner2",
+    "description": "掘削量や盛土量など土の体積を算出すること。",
+    "word": "土量計算",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-7a4d-66f2-7dda": {
+    "term": "土積曲線",
+    "length": 4,
+    "level": "advanced",
+    "description": "土量の累計を距離に沿って表した曲線。",
+    "word": "土積曲線",
+    "source": "construction_terms_200.json"
+  },
+  "term-4e0a-5c64-8def-76e4": {
+    "term": "上層路盤",
+    "length": 4,
+    "level": "intermediate",
+    "description": "路盤の上部に設ける比較的高品質な層。",
+    "word": "上層路盤",
+    "source": "construction_terms_200.json"
+  },
+  "term-4e0b-5c64-8def-76e4": {
+    "term": "下層路盤",
+    "length": 4,
+    "level": "intermediate",
+    "description": "路床の上に設ける路盤の下側の層。",
+    "word": "下層路盤",
+    "source": "construction_terms_200.json"
+  },
+  "term-6a2a-65ad-52fe-914d": {
+    "term": "横断勾配",
+    "length": 4,
+    "level": "intermediate",
+    "description": "道路を横断方向に設ける勾配。",
+    "word": "横断勾配",
+    "source": "construction_terms_200.json"
+  },
+  "term-7e26-65ad-52fe-914d": {
+    "term": "縦断勾配",
+    "length": 4,
+    "level": "intermediate",
+    "description": "道路を進行方向に沿って設ける勾配。",
+    "word": "縦断勾配",
+    "source": "construction_terms_200.json"
+  },
+  "term-66f2-7dda-534a-5f84": {
+    "term": "曲線半径",
+    "length": 4,
+    "level": "intermediate",
+    "description": "道路などの曲線の大きさを示す半径。",
+    "word": "曲線半径",
+    "source": "construction_terms_200.json"
+  },
+  "term-7de9-548c-66f2-7dda": {
+    "term": "緩和曲線",
+    "length": 4,
+    "level": "advanced",
+    "description": "直線と円曲線の間で曲率を徐々に変化させる曲線。",
+    "word": "緩和曲線",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-57fa-9762": {
+    "term": "施工基面",
+    "length": 4,
+    "level": "advanced",
+    "description": "施工の基準となる計画上の面。",
+    "word": "施工基面",
+    "source": "construction_terms_200.json"
+  },
+  "term-4f38-7e2e-88c5-7f6e": {
+    "term": "伸縮装置",
+    "length": 4,
+    "level": "advanced",
+    "description": "橋梁などの伸縮を吸収するために設ける装置。",
+    "word": "伸縮装置",
+    "source": "construction_terms_200.json"
+  },
+  "term-843d-6a4b-9632-6b62": {
+    "term": "落橋防止",
+    "length": 4,
+    "level": "advanced",
+    "description": "地震時などに橋桁の落下を防ぐための対策。",
+    "word": "落橋防止",
+    "source": "construction_terms_200.json"
+  },
+  "term-8010-9707-88dc-5f37": {
+    "term": "耐震補強",
+    "length": 4,
+    "level": "advanced",
+    "description": "地震に対する構造物の性能を高める補強。",
+    "word": "耐震補強",
+    "source": "construction_terms_200.json"
+  },
+  "term-73fe-5834-4ee3-7406-4eba": {
+    "term": "現場代理人",
+    "length": 5,
+    "level": "intermediate",
+    "description": "受注者を代表して工事現場の運営や契約上の業務を行う者。",
+    "word": "現場代理人",
+    "source": "construction_terms_200.json"
+  },
+  "term-4e3b-4efb-6280-8853-8005": {
+    "term": "主任技術者",
+    "length": 5,
+    "level": "intermediate",
+    "description": "工事現場の施工技術上の管理を担当する技術者。",
+    "word": "主任技術者",
+    "source": "construction_terms_200.json"
+  },
+  "term-76e3-7406-6280-8853-8005": {
+    "term": "監理技術者",
+    "length": 5,
+    "level": "advanced",
+    "description": "一定の工事で施工技術上の管理を行う技術者。",
+    "word": "監理技術者",
+    "source": "construction_terms_200.json"
+  },
+  "term-51fa-6765-5f62-7ba1-7406": {
+    "term": "出来形管理",
+    "length": 5,
+    "level": "intermediate",
+    "description": "施工した構造物の寸法・高さ・位置などを確認し管理すること。",
+    "word": "出来形管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5efa-8a2d-526f-7523-7269": {
+    "term": "建設副産物",
+    "length": 5,
+    "level": "advanced",
+    "description": "建設工事に伴って発生する土砂・コンクリート塊など。",
+    "word": "建設副産物",
+    "source": "construction_terms_200.json"
+  },
+  "term-5b89-5168-885b-751f-7ba1-7406": {
+    "term": "安全衛生管理",
+    "length": 6,
+    "level": "advanced",
+    "description": "労働災害防止と作業者の健康確保を総合的に管理すること。",
+    "word": "安全衛生管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-54c1-8cea-7ba1-7406-57fa-6e96": {
+    "term": "品質管理基準",
+    "length": 6,
+    "level": "advanced",
+    "description": "品質管理を行う際の測定方法や判定基準。",
+    "word": "品質管理基準",
+    "source": "construction_terms_200.json"
+  },
+  "term-571f-6728-65bd-5de5-7ba1-7406": {
+    "term": "土木施工管理",
+    "length": 6,
+    "level": "advanced",
+    "description": "土木工事を品質・工程・安全・原価などの面から管理すること。",
+    "word": "土木施工管理",
+    "source": "construction_terms_200.json"
+  },
+  "term-5de5-4e8b-6210-7e3e-8a55-5b9a": {
+    "term": "工事成績評定",
+    "length": 6,
+    "level": "advanced",
+    "description": "完成した公共工事などの施工状況や成果を評価する制度。",
+    "word": "工事成績評定",
+    "source": "construction_terms_200.json"
+  },
+  "term-65bd-5de5-4f53-7cfb-56f3": {
+    "term": "施工体系図",
+    "length": 5,
+    "level": "advanced",
+    "description": "工事に関係する元請・下請などの施工体制を示す図。",
+    "word": "施工体系図",
+    "source": "construction_terms_200.json"
+  },
+  "horizontal": {
+    "word": "水平",
+    "reading": "すいへい",
+    "description": "重力の方向に対して直角となる状態。",
+    "term": "水平",
+    "length": 2,
+    "source": "stage-support"
+  },
+  "supervision": {
+    "word": "監督",
+    "reading": "かんとく",
+    "description": "工事が契約や設計図書に従って行われるよう確認すること。",
+    "term": "監督",
+    "length": 2,
+    "source": "stage-support"
+  },
+  "construction": {
+    "word": "施工",
+    "reading": "せこう",
+    "description": "設計図や仕様に従って実際に工事を行うこと。",
+    "term": "施工",
+    "length": 2,
+    "source": "stage-support"
+  },
+  "roadSurface": {
+    "word": "路面",
+    "reading": "ろめん",
+    "description": "道路の表面で、車両や人が通る部分。",
+    "term": "路面",
+    "length": 2,
+    "source": "stage-support"
+  }
+}

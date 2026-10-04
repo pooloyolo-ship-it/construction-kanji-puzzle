@@ -1,0 +1,1210 @@
+{
+  "schemaVersion": 3,
+  "progression": {
+    "unlockMode": "all"
+  },
+  "stages": [
+    {
+      "id": "stage-01",
+      "name": "初級1",
+      "difficulty": "beginner",
+      "size": 5,
+      "initialBoard": [
+        "督",
+        "圧",
+        "丁",
+        "測",
+        "基",
+        "転",
+        "平",
+        "監",
+        "削",
+        "量",
+        "掛",
+        "来",
+        "筋",
+        "水",
+        "形",
+        "張",
+        "器",
+        "矢",
+        "掘",
+        "配",
+        "図",
+        "準",
+        "点",
+        "出",
+        "員"
+      ],
+      "correctTerms": [
+        "level",
+        "reference",
+        "supervisor",
+        "asbuilt",
+        "reinforcement",
+        "chohari",
+        "mallet",
+        "survey",
+        "excavation",
+        "compaction"
+      ],
+      "warningTerms": [
+        "horizontal",
+        "standard",
+        "supervision",
+        "rebar",
+        "surveyPoint"
+      ],
+      "terms": [
+        {
+          "termId": "level",
+          "term": "水平器",
+          "description": "水平や鉛直を確認するために使用する器具。"
+        },
+        {
+          "termId": "reference",
+          "term": "基準点",
+          "description": "測量の位置や高さの基準となる点。"
+        },
+        {
+          "termId": "supervisor",
+          "term": "監督員",
+          "description": "発注者側で工事の監督業務を行う担当者。"
+        },
+        {
+          "termId": "asbuilt",
+          "term": "出来形",
+          "description": "施工が完了した構造物などの寸法・高さ・位置。"
+        },
+        {
+          "termId": "reinforcement",
+          "term": "配筋図",
+          "description": "鉄筋の位置・径・間隔などを示した図面。"
+        },
+        {
+          "termId": "chohari",
+          "term": "丁張",
+          "description": "構造物の位置・高さ・勾配を現場に示すための仮設物。"
+        },
+        {
+          "termId": "mallet",
+          "term": "掛矢",
+          "description": "杭などを打ち込むときに使う大型の木槌。"
+        },
+        {
+          "termId": "survey",
+          "term": "測量",
+          "description": "位置・距離・高さ・角度などを測定する作業。"
+        },
+        {
+          "termId": "excavation",
+          "term": "掘削",
+          "description": "地盤や土砂などを掘る作業。"
+        },
+        {
+          "termId": "compaction",
+          "term": "転圧",
+          "description": "土や舗装材料などを締め固める作業。"
+        }
+      ],
+      "allowedTerms": [
+        {
+          "termId": "level",
+          "maxUses": 1
+        },
+        {
+          "termId": "reference",
+          "maxUses": 1
+        },
+        {
+          "termId": "supervisor",
+          "maxUses": 1
+        },
+        {
+          "termId": "asbuilt",
+          "maxUses": 1
+        },
+        {
+          "termId": "reinforcement",
+          "maxUses": 1
+        },
+        {
+          "termId": "chohari",
+          "maxUses": 1
+        },
+        {
+          "termId": "mallet",
+          "maxUses": 1
+        },
+        {
+          "termId": "survey",
+          "maxUses": 1
+        },
+        {
+          "termId": "excavation",
+          "maxUses": 1
+        },
+        {
+          "termId": "compaction",
+          "maxUses": 1
+        },
+        {
+          "termId": "horizontal",
+          "maxUses": 1
+        },
+        {
+          "termId": "standard",
+          "maxUses": 1
+        },
+        {
+          "termId": "supervision",
+          "maxUses": 1
+        },
+        {
+          "termId": "rebar",
+          "maxUses": 1
+        },
+        {
+          "termId": "surveyPoint",
+          "maxUses": 1
+        }
+      ],
+      "solutionRoute": [
+        {
+          "type": "swap",
+          "from": 16,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 6,
+          "to": 1,
+          "cleared": [
+            {
+              "termId": "compaction",
+              "cells": [
+                5,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 13,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "level",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 22,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 21,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 4,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "reference",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 24,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 13,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 7,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "supervisor",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 14,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 11,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 23,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "asbuilt",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 20,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 12,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 19,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "reinforcement",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 15,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 16,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "chohari",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 17,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 10,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "mallet",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 9,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 3,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "survey",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 8,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 18,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "excavation",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage-02",
+      "name": "初級2",
+      "difficulty": "beginner",
+      "size": 5,
+      "initialBoard": [
+        "水",
+        "床",
+        "点",
+        "土",
+        "測",
+        "筋",
+        "工",
+        "面",
+        "型",
+        "生",
+        "準",
+        "枠",
+        "切",
+        "施",
+        "鉄",
+        "点",
+        "路",
+        "盛",
+        "養",
+        "路",
+        "足",
+        "法",
+        "盤",
+        "土",
+        "場"
+      ],
+      "correctTerms": [
+        "benchmark",
+        "roadbed",
+        "roadbase",
+        "slope",
+        "formwork",
+        "scaffold",
+        "steel",
+        "surveyPoint",
+        "construction",
+        "curing",
+        "fill",
+        "cut"
+      ],
+      "warningTerms": [
+        "waterLevel",
+        "roadSurface",
+        "earthwork"
+      ],
+      "terms": [
+        {
+          "termId": "benchmark",
+          "term": "水準点",
+          "description": "標高の基準として設置・管理される点。"
+        },
+        {
+          "termId": "roadbed",
+          "term": "路床",
+          "description": "道路舗装を下から支える地盤部分。"
+        },
+        {
+          "termId": "roadbase",
+          "term": "路盤",
+          "description": "舗装を支えるために路床の上へ設ける層。"
+        },
+        {
+          "termId": "slope",
+          "term": "法面",
+          "description": "切土や盛土によってできる傾斜面。"
+        },
+        {
+          "termId": "formwork",
+          "term": "型枠",
+          "description": "コンクリートを所定の形に成形する仮設の枠。"
+        },
+        {
+          "termId": "scaffold",
+          "term": "足場",
+          "description": "高所作業などのために設ける仮設の作業床。"
+        },
+        {
+          "termId": "steel",
+          "term": "鉄筋",
+          "description": "コンクリートを補強するために配置する鋼材。"
+        },
+        {
+          "termId": "surveyPoint",
+          "term": "測点",
+          "description": "測量を行うために設定した地点。"
+        },
+        {
+          "termId": "construction",
+          "term": "施工",
+          "description": "設計図や仕様に従って実際に工事を行うこと。"
+        },
+        {
+          "termId": "curing",
+          "term": "養生",
+          "description": "施工後の材料や構造物を適切な状態で保護すること。"
+        },
+        {
+          "termId": "fill",
+          "term": "盛土",
+          "description": "土を盛り上げて地盤や構造物をつくること。"
+        },
+        {
+          "termId": "cut",
+          "term": "切土",
+          "description": "地盤を切り取って所定の形や高さにすること。"
+        }
+      ],
+      "allowedTerms": [
+        {
+          "termId": "benchmark",
+          "maxUses": 1
+        },
+        {
+          "termId": "roadbed",
+          "maxUses": 1
+        },
+        {
+          "termId": "roadbase",
+          "maxUses": 1
+        },
+        {
+          "termId": "slope",
+          "maxUses": 1
+        },
+        {
+          "termId": "formwork",
+          "maxUses": 1
+        },
+        {
+          "termId": "scaffold",
+          "maxUses": 1
+        },
+        {
+          "termId": "steel",
+          "maxUses": 1
+        },
+        {
+          "termId": "surveyPoint",
+          "maxUses": 1
+        },
+        {
+          "termId": "construction",
+          "maxUses": 1
+        },
+        {
+          "termId": "curing",
+          "maxUses": 1
+        },
+        {
+          "termId": "fill",
+          "maxUses": 1
+        },
+        {
+          "termId": "cut",
+          "maxUses": 1
+        },
+        {
+          "termId": "waterLevel",
+          "maxUses": 1
+        },
+        {
+          "termId": "roadSurface",
+          "maxUses": 1
+        },
+        {
+          "termId": "earthwork",
+          "maxUses": 1
+        }
+      ],
+      "solutionRoute": [
+        {
+          "type": "swap",
+          "from": 10,
+          "to": 1,
+          "cleared": [
+            {
+              "termId": "benchmark",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 10,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 16,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "roadbed",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 22,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 19,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "roadbase",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 7,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 21,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "slope",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 11,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 8,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "formwork",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 24,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 20,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "scaffold",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 5,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 14,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "steel",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 15,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 4,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "surveyPoint",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 6,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 13,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "construction",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 9,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 18,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "curing",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 3,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 17,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "fill",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 23,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 12,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "cut",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stage-03",
+      "name": "初級3",
+      "difficulty": "beginner",
+      "size": 5,
+      "initialBoard": [
+        "量",
+        "径",
+        "舗",
+        "杭",
+        "養",
+        "面",
+        "厚",
+        "出",
+        "盤",
+        "枠",
+        "路",
+        "筋",
+        "来",
+        "法",
+        "工",
+        "装",
+        "足",
+        "施",
+        "測",
+        "型",
+        "高",
+        "鉄",
+        "場",
+        "図",
+        "生"
+      ],
+      "correctTerms": [
+        "progress",
+        "surveyStake",
+        "rebarDiameter",
+        "pavementThickness",
+        "constructionDrawing",
+        "slope",
+        "roadbase",
+        "formwork",
+        "curing",
+        "scaffold"
+      ],
+      "warningTerms": [
+        "survey",
+        "steel",
+        "pavement",
+        "construction"
+      ],
+      "terms": [
+        {
+          "termId": "progress",
+          "term": "出来高",
+          "description": "工事の進捗に応じて完成した仕事量や金額。"
+        },
+        {
+          "termId": "surveyStake",
+          "term": "測量杭",
+          "description": "測量位置や基準を示すために設置する杭。"
+        },
+        {
+          "termId": "rebarDiameter",
+          "term": "鉄筋径",
+          "description": "鉄筋の直径。"
+        },
+        {
+          "termId": "pavementThickness",
+          "term": "舗装厚",
+          "description": "舗装各層または舗装全体の厚さ。"
+        },
+        {
+          "termId": "constructionDrawing",
+          "term": "施工図",
+          "description": "実際の施工に必要な詳細を示した図面。"
+        },
+        {
+          "termId": "slope",
+          "term": "法面",
+          "description": "切土や盛土によってできる傾斜面。"
+        },
+        {
+          "termId": "roadbase",
+          "term": "路盤",
+          "description": "舗装を支えるために路床の上へ設ける層。"
+        },
+        {
+          "termId": "formwork",
+          "term": "型枠",
+          "description": "コンクリートを所定の形に成形する仮設の枠。"
+        },
+        {
+          "termId": "curing",
+          "term": "養生",
+          "description": "施工後の材料や構造物を適切な状態で保護すること。"
+        },
+        {
+          "termId": "scaffold",
+          "term": "足場",
+          "description": "高所作業などのために設ける仮設の作業床。"
+        }
+      ],
+      "allowedTerms": [
+        {
+          "termId": "progress",
+          "maxUses": 1
+        },
+        {
+          "termId": "surveyStake",
+          "maxUses": 1
+        },
+        {
+          "termId": "rebarDiameter",
+          "maxUses": 1
+        },
+        {
+          "termId": "pavementThickness",
+          "maxUses": 1
+        },
+        {
+          "termId": "constructionDrawing",
+          "maxUses": 1
+        },
+        {
+          "termId": "slope",
+          "maxUses": 1
+        },
+        {
+          "termId": "roadbase",
+          "maxUses": 1
+        },
+        {
+          "termId": "formwork",
+          "maxUses": 1
+        },
+        {
+          "termId": "curing",
+          "maxUses": 1
+        },
+        {
+          "termId": "scaffold",
+          "maxUses": 1
+        },
+        {
+          "termId": "survey",
+          "maxUses": 1
+        },
+        {
+          "termId": "steel",
+          "maxUses": 1
+        },
+        {
+          "termId": "pavement",
+          "maxUses": 1
+        },
+        {
+          "termId": "construction",
+          "maxUses": 1
+        }
+      ],
+      "solutionRoute": [
+        {
+          "type": "swap",
+          "from": 20,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 12,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 7,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "progress",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 3,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 7,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 18,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "surveyStake",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 12,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 11,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 21,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "rebarDiameter",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 6,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 15,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 20,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "pavementThickness",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 23,
+          "to": 2,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 14,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 17,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "constructionDrawing",
+              "cells": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 5,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 13,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "slope",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 8,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 10,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "roadbase",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 9,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 19,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "formwork",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 24,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 4,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "curing",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "swap",
+          "from": 22,
+          "to": 1,
+          "cleared": []
+        },
+        {
+          "type": "swap",
+          "from": 16,
+          "to": 0,
+          "cleared": [
+            {
+              "termId": "scaffold",
+              "cells": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
