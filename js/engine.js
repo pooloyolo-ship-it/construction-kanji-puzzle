@@ -20,10 +20,21 @@ export function matches(state,stage,dictionary){
  return found.sort((a,b)=>b.cells.length-a.cells.length||a.cells[0]-b.cells[0]||a.direction.localeCompare(b.direction));
 }
 export function swap(state,from,to){if(![from,to].every(i=>Number.isInteger(i)&&i>=0&&i<state.board.length))throw new Error('交換位置が不正です');if(from===to||state.board[from]===state.board[to])return state;const next=structuredClone(state);[next.board[from],next.board[to]]=[next.board[to],next.board[from]];return next;}
+// Reserve one assembly location per remaining selected word. Prefer the most
+// advanced prefix; a separate occurrence remains eligible for normal erasure.
+export function pendingPrefixes(state,stage,dictionary,found){
+ const n=gridSize(stage),held=new Set(),counts={};state.board.filter(Boolean).forEach(c=>counts[c]=(counts[c]||0)+1);
+ for(const id of stage.correctTerms||[]){if(state.used[id])continue;const letters=Array.from(dictionary[id].word),need={};letters.forEach(c=>need[c]=(need[c]||0)+1);if(!Object.entries(need).every(([c,k])=>(counts[c]||0)>=k))continue;
+  const candidates=found.filter(m=>m.cells.length<=letters.length&&dictionary[id].word.startsWith(dictionary[m.termId].word)).map(m=>{const start=m.cells[0],step=m.direction==='horizontal'?1:n;if(m.direction==='horizontal'?start%n+letters.length>n:Math.floor(start/n)+letters.length>n)return null;let progress=0;while(progress<letters.length&&state.board[start+progress*step]===letters[progress])progress++;return {start,direction:m.direction,progress};}).filter(Boolean).sort((a,b)=>b.progress-a.progress||a.start-b.start||a.direction.localeCompare(b.direction));
+  const anchor=candidates[0];if(!anchor)continue;
+  for(const m of found)if(m.cells[0]===anchor.start&&m.direction===anchor.direction&&m.cells.length<letters.length&&dictionary[id].word.startsWith(dictionary[m.termId].word))held.add(m);
+ }return held;
+}
 export function resolveSwap(state,stage,dictionary,from,to){
  const exchanged=swap(state,from,to);if(exchanged===state)return {state,changed:false,cleared:[],exchangedBoard:state.board};
  const next=structuredClone(exchanged),cleared=[],limits=new Map(stage.allowedTerms.map(t=>[t.termId,t.maxUses]));
- for(const m of matches(exchanged,stage,dictionary)){if(cleared.some(long=>long.cells.length>m.cells.length&&m.cells.every(i=>long.cells.includes(i))))continue;if((next.used[m.termId]||0)>=limits.get(m.termId))continue;next.used[m.termId]=(next.used[m.termId]||0)+1;next.completed.push(m.termId);cleared.push(m);}
+ const found=matches(exchanged,stage,dictionary),held=pendingPrefixes(exchanged,stage,dictionary,found);
+ for(const m of found){if(held.has(m))continue;if(cleared.some(long=>long.cells.length>m.cells.length&&m.cells.every(i=>long.cells.includes(i))))continue;if((next.used[m.termId]||0)>=limits.get(m.termId))continue;next.used[m.termId]=(next.used[m.termId]||0)+1;next.completed.push(m.termId);cleared.push(m);}
  for(const m of cleared)for(const i of m.cells)next.board[i]=null;return {state:next,changed:true,cleared,exchangedBoard:exchanged.board};
 }
 export function isClear(state){return state.board.every(c=>c===null);}

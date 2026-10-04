@@ -13,7 +13,7 @@ test('中級150問題:36文字・レベル・長さ・初期成立なし・異�
 });
 test('中級1は危険な同時消去を全体で拒否、中級2・3は消去して完全に戻せる',()=>{
  const d={long:{word:'水平器'},short:{word:'水平'},other:{word:'測量'}};
- for(const mode of MODES.filter(m=>m.gridSize===6)){const board=Array(36).fill(null);board[0]='水';board[35]='平';board[20]='器';board[12]='測';board[13]='量';const s={id:mode.id,name:mode.name,gridSize:6,difficulty:'intermediate',deadEndWarning:mode.deadEndWarning,solverScope:'dictionary',correctTerms:['long','other'],initialBoard:board,allowedTerms:allowedTermsFor(board,d,6)};const g=new Game(s,d),before=structuredClone(g.state),r=g.move(35,1);
+ for(const mode of MODES.filter(m=>m.gridSize===6)){const board=Array(36).fill(null);board[4]='水';board[35]='平';board[20]='器';board[12]='測';board[13]='量';const s={id:mode.id,name:mode.name,gridSize:6,difficulty:'intermediate',deadEndWarning:mode.deadEndWarning,solverScope:'dictionary',correctTerms:['long','other'],initialBoard:board,allowedTerms:allowedTermsFor(board,d,6)};const g=new Game(s,d),before=structuredClone(g.state),r=g.move(35,5);
   assert.equal(r.blocked,mode.deadEndWarning);if(mode.deadEndWarning){assert.deepEqual(g.state,before);assert.equal(g.history.length,0);}else{assert.equal(r.cleared.length,2);assert.equal(solveRemaining(g.state,s,d),null);assert.ok(g.undo());assert.deepEqual(g.state,before);}g.reset();assert.deepEqual(g.state,before);
  }
 });
